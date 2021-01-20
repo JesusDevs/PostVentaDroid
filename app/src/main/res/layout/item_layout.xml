@@ -13,11 +13,11 @@
         android:layout_height="wrap_content" >
 
         <EditText
-            android:id="@+id/TextMultiLine"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/tv_item"
+            android:layout_width="182dp"
+            android:layout_height="102dp"
             android:layout_marginTop="2dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginEnd="24dp"
             android:layout_marginBottom="2dp"
             android:autofillHints=""
             android:ems="10"
@@ -27,12 +27,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.676" />
+            app:layout_constraintVertical_bias="0.28" />
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="137dp"
-            android:layout_height="130dp"
+            android:id="@+id/iv_item"
+            android:layout_width="135dp"
+            android:layout_height="128dp"
             android:layout_marginStart="7dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="244dp"
